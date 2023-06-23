@@ -1,0 +1,109 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@100;200;300;400;500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    color:  #242424;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    word-wrap: break-word; /*quebrar palavras caso ultrapsse o tamanho do container*/
+    overflow:  break-word; /*quebrar palavras caso ultrapsse o tamanho do container*/
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 900;
+    color: #000;
+}
+.wrapper{
+    width: 100%;
+    margin: 0 auto; /* maign 0 em cima e em baixo e auto em ambos os lados*/
+    background-color: aliceblue;
+}
+
+.container{
+    width: 100%;
+    max-width: 840px;
+    margin:  0 auto;
+    padding:  0 20px;
+
+}
+
+section.module p{
+    margin-bottom: 40px;
+}
+
+section.module:last-child{
+    magin-bottom :0;
+
+}
+section.module h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+section.module.content-1{
+    padding: 40px;
+    background-color:  /*#dbd97e*/ #ffffff;
+}
+section.module.content-2{
+    padding: 40px;
+    background-color:  #dbd97e;
+}
+
+section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important; /* forçar pegar toda view port*/
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position:  50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* ISSO QUE DA O EFEITO PARALAX */
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover ;
+    -o-background-size:cover;
+
+}
+section.module.parallax:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index:  8;
+    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 20%, #0c0c0c 100%) ;
+    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 20%, #0c0c0c 100%) ;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 20%, #0c0c0c 100%) ;
+}
+
+
+section.module.parallax-1{
+    background-image: url("https://wallpaperaccess.com/full/1428034.jpg");
+}
+section.module.parallax-2{
+    background-image: url("https://i.gifer.com/EzuD.gif");
+}
+
+section.module.parallax-3{
+    /*background-image: url("https://www.filminquiry.com/wp-content/uploads/2018/08/ronnie-coleman-king.jpg?ezimgfmt=ngcb1/notWebP");*/
+    background-image: url("https://media.tenor.com/z776C6D_tUYAAAAd/ronnie-coleman-big-ron.gif");
+}
+
+section.module.parallax h1{
+    color: #ffffff;
+    text-align: center;
+    font-size: 78px;
+    z-index: 50;
+
+}
+section.module.parallax h6{
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    z-index: 20;
+    margin-bottom: 0;
+}
+
+
+/*Paralax video https://www.youtube.com/watch?v=A43YY-SwrdE&ab_channel=Sujeitoprogramador*/
