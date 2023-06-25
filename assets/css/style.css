@@ -121,7 +121,7 @@ section.module.parallax h6{
    
 }
 .card{
-  
+    position: relative;
     display: flex;
     flex-direction: column;
     background-color: rgb(255, 255, 255);
@@ -130,7 +130,7 @@ section.module.parallax h6{
     max-width: 200px;
    /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;*/
    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-   backdrop-filter: blur(0px);
+   
   
   
 }
@@ -172,7 +172,7 @@ a{
     position: absolute;
     background: #1f3d4738;
     
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(3px);
     background: transparent;
     height: 100%;
     width: 100%;
@@ -183,12 +183,17 @@ a{
 }
 .card-footer:hover{
     backdrop-filter: blur(0px);
+   
     
     
+}
+.card:hover h5{
+    display: none;
 }
 .card:hover{
     
     transition-duration:  0.2s;
+    animation-delay: 0.5;
     transform: translateX(10px) scale(1.2);
     animation-delay: 0.5s;
     
