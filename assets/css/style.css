@@ -257,7 +257,12 @@ footer img{
        
        
     }
-
+    #coroa{
+        height: 1rem;
+        position: absolute;
+        
+    
+    }
     
 }
 /*Paralax video https://www.youtube.com/watch?v=A43YY-SwrdE&ab_channel=Sujeitoprogramador*/
