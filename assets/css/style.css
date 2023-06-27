@@ -23,7 +23,7 @@ h1,h2,h3,h4,h5,h6{
     width: 100%;
     max-width: 840px;
     margin:  0 auto;
-    padding:  0 20px;
+    padding:  0 ;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -143,7 +143,11 @@ section.module.parallax h6{
 }
 
 a{
+
+    
     text-decoration: none;
+    
+
 }
 
 .card-image{
@@ -225,7 +229,7 @@ footer img{
     height: 20rem;
 }
 
-@media (max-width:400px)
+@media (max-width:600px)
 {
     section.module.parallax h1{
         color: #ffffff;
@@ -253,6 +257,7 @@ footer img{
        
        
     }
+
     
 }
 /*Paralax video https://www.youtube.com/watch?v=A43YY-SwrdE&ab_channel=Sujeitoprogramador*/
