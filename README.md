@@ -1,6 +1,7 @@
 # Página de Tributo a Ronnie Coleman
 
 Este é um projeto de página de tributo a Ronnie Coleman, criado como forma de testar meus conhecimentos em front-end. A página tem como objetivo homenagear e destacar a carreira excepcional do renomado fisiculturista Ronnie Coleman. A página é totalmente responsiva, adaptando-se a diferentes tamanhos de tela e dispositivos.
+![image](https://github.com/aureliodeboa/Tribute-Ronnie-Coleman/assets/53971991/be84cd34-be68-43b3-9c3b-14d177724572)
 
 ## Tecnologias Utilizadas
 
@@ -24,7 +25,7 @@ Este é um projeto de página de tributo a Ronnie Coleman, criado como forma de 
 Contribuições para melhorias e adições ao projeto são bem-vindas. Sinta-se à vontade para abrir uma issue ou enviar um pull request para discutir e implementar novas funcionalidades, fazer correções ou aprimoramentos.
 
 
-![image](https://github.com/aureliodeboa/Tribute-Ronnie-Coleman/assets/53971991/be84cd34-be68-43b3-9c3b-14d177724572)
+
 
 
 ## Autor
